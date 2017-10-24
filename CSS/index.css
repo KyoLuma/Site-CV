@@ -1,0 +1,94 @@
+.row .col{
+	padding: 0!important;
+}
+.row{
+	margin: 0!important;
+}
+
+.navbar{
+	height: 70px;
+	width: 100%;
+	background-color: #424242;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	background-color: #424242; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#616161 , #424242); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#616161 , #424242); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#616161 , #424242); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#616161 , #424242); /* Standard syntax */
+}
+.right_nav{
+	display: flex;
+	justify-content: flex-end;
+	width: 70%;
+	line-height: 68px
+}
+.left_nav{
+	display: flex;
+	justify-content: flex-start;
+	width: 30%;
+}
+.nav_word{
+	padding-right: 30px;
+	padding-left: 30px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 22px;
+	transition: .2s
+}
+.nav_word:hover{
+	border-bottom: 3px solid white;
+	transition: .2s
+}
+.logo{
+	height: 60px;
+	padding-left: 20px;
+	margin-top: 5px;
+}
+.empty_bar{
+	height: 70px;
+}
+.container{
+	padding: 0;
+	margin: 0;
+	margin: 0 auto; 
+    max-width: 100%!important; 
+    width: 100%!important;
+}
+.index_block{
+	background-color: gray;
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+}
+.opacity_block_index{
+	height: 100%;
+	background-color: rgba(114, 114, 114, .5);
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: 100;
+	transition: .5s
+}
+.opacity_block_index:hover{
+	background-color: rgba(255, 255, 255, .3);
+	transition: .5s
+}
+.text_block_index{
+	display: block;
+}
+footer{
+	height: 300px;
+	background-color: #424242; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#424242 , #616161); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#424242 , #616161); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#424242 , #616161); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#424242 , #616161); /* Standard syntax */
+}
